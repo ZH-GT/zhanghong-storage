@@ -1,0 +1,134 @@
+{
+	"pages": [
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/program/program",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/myself/myself",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/program/meijia/meijia",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/program/meijie/meijie",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/program/yan/yan",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/myself/feedback/feedback",
+			"style" : 
+			{
+				"navigationBarTitleText" : "意见反馈",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/myself/feedback/feedback-history/feedback-history",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/program/goods-detail/goods-detail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/myself/search/search",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/myself/search/lashOption/lashOption",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/myself/search/basicInformation/basicInformation",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/myself/search/agreement/agreement",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"navigationStyle": "custom"
+				}
+			}
+
+			
+		
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarBackgroundColor": "#1a1d26",
+		"backgroundColor": "#1a1d26"
+	},
+	"tabBar": {
+		"custom": true,
+		"list": [
+			{
+				"pagePath": "pages/index/index"
+			},
+			{
+				"pagePath": "pages/program/program"
+			},
+			{
+				"pagePath": "pages/myself/myself"
+			}
+		],
+		"height": "0px",
+		"backgroundColor": "transparent",
+		"borderStyle": "transparent"
+	}
+}
